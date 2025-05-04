@@ -70,7 +70,7 @@ Follow these steps to set up the project:
 
 1. **Run the Agent**:
    ```bash
-   python main.py
+   streamlit run chat_app.py
    ```
 
 2. **Access the Web Interface**:
