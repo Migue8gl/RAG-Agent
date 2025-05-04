@@ -77,9 +77,9 @@ Follow these steps to set up the project:
    └── ...
    ```
 
-   If a vector database already exists and you want to start fresh, delete the existing database file (e.g., `data/vectordb.db`):
+   If a vector database already exists and you want to start fresh, delete the existing database file (e.g., `data/db.pkl`):
    ```bash
-   rm -f data/vectordb.db
+   rm -f data/db.pkl
    ```
 
 2. **Run the Agent**:
@@ -107,17 +107,9 @@ Follow these steps to set up the project:
 - **Issue**: The web interface does not load.
   - **Solution**: Check if Streamlit is running on the correct port (`8501` by default).
 
-## Contributing 🤝
-
-We welcome contributions! Please fork the repository, create a feature branch, and submit a pull request.
-
 ## License 📜
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgments 🙌
-
-Thanks to all contributors and the open-source community for their support!
 
 ---
 Happy coding! 💻✨
