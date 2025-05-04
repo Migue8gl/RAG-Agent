@@ -1,0 +1,1 @@
+laura es mi amiga, ahora mismo esta ligando con el Juanca, que es informatico y está buenorro.

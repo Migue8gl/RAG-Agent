@@ -1,0 +1,1 @@
+- Esta nota sirve con enlace para todas las notas autogeneradas.
