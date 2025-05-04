@@ -62,15 +62,8 @@ Follow these steps to set up the project:
 3. Set up environment variables:
    Create a `.env` file in the root directory with the following variables:
    ```
-   API_KEY=your_api_key_here
-   DATABASE_URL=your_database_url_here
-   MODEL=gpt-4
-   ```
-   Alternatively, export them directly in your terminal:
-   ```bash
-   export API_KEY=your_api_key_here
-   export DATABASE_URL=your_database_url_here
-   export MODEL=gpt-4
+   OPENAI_API_KEY=your_api_key_here
+   MODEL=gpt-4o
    ```
 
 ## Usage 🚀
