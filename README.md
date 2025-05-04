@@ -68,18 +68,32 @@ Follow these steps to set up the project:
 
 ## Usage 🚀
 
-1. **Run the Agent**:
+1. **Prepare Documents**:
+   Place the files you want to index in the vector database under the `data/docs` directory:
+   ```
+   data/docs/
+   ├── document1.txt
+   ├── document2.pdf
+   └── ...
+   ```
+
+   If a vector database already exists and you want to start fresh, delete the existing database file (e.g., `data/vectordb.db`):
+   ```bash
+   rm -f data/vectordb.db
+   ```
+
+2. **Run the Agent**:
    ```bash
    streamlit run chat_app.py
    ```
 
-2. **Access the Web Interface**:
+3. **Access the Web Interface**:
    Open your browser and navigate to `http://localhost:8501` to interact with the chatbot.
 
-3. **Customize Components**:
+4. **Customize Components**:
    Modify the configuration files to adjust chunker, retriever, or vector database settings.
 
-4. **Test Queries**:
+5. **Test Queries**:
    Use the provided API or CLI to send queries and receive responses.
 
 ## Troubleshooting 🛠️
